@@ -1,0 +1,301 @@
+@charset "utf-8";
+/* CSS Document */
+.gWidth{
+	padding:0%;
+}
+.gPadding{
+	padding:0 2%;
+}
+.pt{
+	padding: 4% 2% 0% 2%;
+}
+.phone{
+	display: none;
+}
+.pc{
+	display: none;
+}
+.phone_hide{ 
+	display: none;
+}
+.pad_hide{
+	display: inline-block;
+}
+header{
+	overflow: hidden;
+}
+.menu{
+	width: 243px;
+	height: 26px;
+	border: 1px solid #969696;
+	padding: 0 5px;
+	box-sizing: border-box;
+}
+.menu input{
+	width: 215px;
+}
+.menu i{
+	color: #1570A5;
+	font-weight: bold;
+}
+
+
+nav ul>li{
+	float: left;
+	padding-left: 0px;
+	margin-right: 30px;
+	background: #fff;
+	color: #000;
+}
+nav ul>li>i{
+	margin-left: 5px;
+}
+
+.phone_banner{
+	display: none;
+}
+.padc_banner{
+	display: block;
+}
+
+
+.padc_banner{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.padc_banner img{
+	width: 100%;
+	height: auto;
+}
+
+.main_1{
+	text-align: left;
+	width: 100%;
+}
+.main_1 ul{
+	margin: 3% 0%;
+	display: flex;
+}
+.main_1 ul>li{
+	width: 33%;
+	height: auto;
+	float: left;
+	margin-right: 1.5%;
+}
+.main_1 ul>li:nth-child(3n){
+	margin-right: 0%;
+}
+
+.pad{
+	display: block;
+}
+.know>h6{
+	font-size: 30px;
+}
+.know>p{
+	margin: 0;
+	font-size: 14px;
+	color: #1570A5;
+	padding: 2% 0%;
+}
+.know>p>span{
+	margin-right: 2%;
+}
+
+.use>p{
+	margin: 0;
+	color: #000;
+	font-size: 15px;
+}
+.use>p>span{
+	display: inline-block;
+	padding: 8px 7px;
+	background: #1570A5;
+	color: #fff;
+	margin-right: 7px;
+}
+.pad_product>ul{
+	padding: 1.5% 0;
+	width: 100%;
+	height: auto;
+}
+.pad_product>ul>li{
+	padding-bottom: 2.5%;
+	width: 100%;
+	height: auto;
+}
+.pad_product>ul>li>img{
+	width: 40%;
+	height: auto;
+	float: left;
+}
+.pad_product>ul>li>p{
+	float: left;
+	margin: 0;
+	margin-left: 4%;
+	width: 54%;
+	font-size: 14px;
+	color: #1570A5;
+}
+
+.service{
+	padding-top: 1%;
+}
+.service>div{
+	margin-bottom: 5%;
+}
+.service>div>h6{
+	font-size: 26px;
+	font-weight: normal;
+	padding-bottom: 2.5%;
+}
+.service>div>p{
+	margin: 0;
+	font-size: 12px;
+	color: #1570A5;
+}
+
+.pad_news{
+	background: #1570A6;
+	padding: 2% 2%;
+	color: #fff;
+}
+.pad_news .pad_news_cont{
+	background: #115E8B;
+	padding: 2% 4%;
+}
+.pad_news .pad_news_cont>img{
+	float: left;
+	margin-right: 5%;
+	margin-bottom: 0.8%;
+	width: 25%;
+	height: auto;
+}
+.pad_news .pad_news_cont>p:nth-last-child(2){
+	width: 70%;
+	font-size: 24px;
+	float: left;
+}
+.pad_news .pad_news_cont>p:nth-last-child(1){
+	font-size: 14px;
+	line-height: 24px;
+}
+.pad_news>h4{
+	padding: 2% 0%;
+	font-size: 24px;
+}
+.pad_news>p{
+	font-size: 14px;
+}
+
+
+
+
+.pad_service{
+	background:#EEEEEE;
+	padding-bottom: 1%;
+}
+.pad_service>div>h4{
+	padding: 3% 0% 1.8% 0%;
+	font-size: 14px;
+	font-weight: normal;
+}
+.pad_service>div>p{
+	font-size: 12px;
+	margin: 0;
+	color: #1570A5;
+	line-height: 22px;
+}
+.pad_service>.other{
+	float: left;
+	width: 48%;
+	padding: 0%;
+}
+.pad_service>.other>h4{
+	padding: 3% 0%;
+	font-size: 14px;
+	font-weight: normal;
+}
+.pad_service>.other>p{
+	font-size: 12px;
+	margin: 0;
+	line-height: 22px;
+	color: #000;
+}
+.pad_service>.other>p>i{
+	font-size: 24px;
+	margin-right: 2%;
+}
+.pad_service>.download{
+	float: right;
+	width: 51%;
+	padding: 0%;
+	margin: 0%;
+	margin-top: 1%;
+}
+.pad_service>.support{
+	float: right;
+	width: 51%;
+	padding: 0%;
+	margin: 0%;
+}
+.pad_service>.about{
+	float: right;
+	width: 51%;
+	padding: 0%;
+	margin: 0%;
+}
+.pad_service>.source{
+	float: left;
+	width: 51%;
+	padding: 0%;
+	margin: 0%;
+	margin-left: 1.5%;
+}
+.pad_service>.source>p:nth-last-child(1){
+	margin-top: 1.8%;
+	font-weight: normal;
+}
+.pad_service>.source>p:nth-last-child(1)>i{
+	display: inline-block;
+	color: #000;
+	font-size: 24px;
+	margin-left: -2%;
+	margin-right: 2%;
+}
+.pad_service>.company{
+	float: left;
+	width: 51%;
+	padding: 0%;
+	margin: 0%;
+	margin-top: 2.7%;
+}
+
+.pad_service>.footer{
+	float: left;
+	width: 94%;
+	padding: 0%;
+	margin: 0%;
+}
+.pad_service>.footer>p{
+	color: #000;
+	font-size: 14px;
+}
+.pad_service>.footer>p>i{
+	margin-right: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
